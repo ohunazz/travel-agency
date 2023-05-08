@@ -32,7 +32,7 @@ a {
     padding-left: 80px;
     padding-right: 80px;
     cursor: pointer;
-    background-color: beige;
+    background-color: #faedcd;
 }
 
 .navigation-links {
@@ -47,17 +47,19 @@ a {
 
 /* Home Page */
 
-#home-section {
+.home-section-container {
     max-width: 1440px;
     padding: 80px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     gap: 60px;
+    margin-bottom: 80px;
+    background-color: #fefae0;
 }
 
 .home-section-heading {
-    margin-bottom: 24px;
+    margin-bottom: 40px;
     color: #311f09;
     font-size: 80px;
     font-weight: 600;
@@ -75,4 +77,28 @@ a {
 .home-section_img {
     height: auto;
     width: 100%;
+}
+
+.home-section-video h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 88px;
+}
+
+.home-section-video p {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.home-section-video {
+    max-width: 1440px;
+    padding: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 40px;
+    background-color: #caf0f8;
 }
