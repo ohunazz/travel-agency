@@ -78,19 +78,7 @@ a {
     height: auto;
     width: 100%;
 }
-
-.home-section-video h2 {
-    text-align: center;
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 88px;
-}
-
-.home-section-video p {
-    text-align: center;
-    font-size: 25px;
-    margin-bottom: 40px;
-}
+/* Home Video */
 
 .home-section-video {
     max-width: 1440px;
@@ -100,5 +88,50 @@ a {
     align-items: center;
     gap: 60px;
     margin-bottom: 40px;
-    background-color: #caf0f8;
+    background-color: #d8e2dc;
+}
+
+.home-section-video-left h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 88px;
+    margin-bottom: 40px;
+}
+
+.home-section-video p {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+/* Top Destinations */
+
+.top-destinations-container {
+    max-width: 1440px;
+    padding: 80px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.top-destinations-container h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 88px;
+    margin-bottom: 40px;
+    color: #6a4c93;
+}
+
+.top-destinations-container h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.top-destinations-container p {
+    margin-bottom: 15px;
+}
+
+.top-destinations-container img {
+    margin-bottom: 30px;
 }
