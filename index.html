@@ -294,16 +294,118 @@
             </div>
         </section>
         <section id="contact-us">
-            <div>
+            <div class="contact-us-container">
                 <h2>Contact Us</h2>
                 <table class="contact-table">
-                    <tr>
+                    <tr class="contact-info">
                         <th>Office Name</th>
                         <th>Address</th>
                         <th>Contact Number</th>
                         <th>Email</th>
                     </tr>
+                    <tbody>
+                        <tr>
+                            <td>Express Travel Inc</td>
+                            <td>200 West St, NY,NY 11213</td>
+                            <td>888-655-4333</td>
+                            <td>Expresstravel@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Express Travel Dubai</td>
+                            <td>
+                                King Salman Bin Abdulaziz Al Saud St - Al Sufouh
+                                - Al Sufouh 2 - Dubai - United Arab Emirates
+                            </td>
+                            <td>+97144360000</td>
+                            <td>
+                                http://www.rotana.com/arjaanbyrotanadubaimediacity
+                            </td>
+                        </tr>
+                    </tbody>
                 </table>
+            </div>
+            <div class="inquiry-form">
+                <h3>Please fill out the Form</h3>
+                <div>
+                    <label for="fullNameInput">Full Name</label>
+                    <input
+                        type="text"
+                        name="fullName"
+                        id="fullNameInput"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="emailInput">Email</label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="emailInput"
+                        placeholder="example@gmail.com"
+                    />
+                </div>
+                <div>
+                    <label for="phoneNumberInput">Phone number</label>
+                    <input
+                        type="tel"
+                        id="phoneNumberInput"
+                        name="phoneNumber"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        required
+                    />
+                </div>
+                <div class="preferred-destination">
+                    <div>
+                        <label for="destinationSelect"
+                            >Please choose your prefferred Destination</label
+                        >
+                        <select
+                            name="destinationPreference"
+                            id="destinationSelect"
+                            required
+                        >
+                            <option value="Dubai">Dubai</option>
+                            <option value="New York">New York</option>
+                            <option value="Singapore">Singapore</option>
+                            <option value="Paris">Paris</option>
+                            <option value="Hong Kong">Hong Kong</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="preferred-travel">
+                <h3>Select your Travel Services</h3>
+                <div>
+                    <label for="flights">Flights</label>
+                    <input
+                        type="checkbox"
+                        name="flights"
+                        id="flightsInput"
+                        value="Flights"
+                    />
+                    <label for="hotelsInput">Hotels</label>
+                    <input
+                        type="checkbox"
+                        name="hotels"
+                        id="hotelsInput"
+                        value="Hotels"
+                    />
+                    <label for="toursInput">Tours</label>
+                    <input
+                        type="checkbox"
+                        name="tours"
+                        id="toursInput"
+                        value="Tours"
+                    />
+                    <label for="carRentalsInput">Car Rentals</label>
+                    <input
+                        type="checkbox"
+                        name="carrentals"
+                        id="carRentalsInput"
+                        value="Car Rentals"
+                    />
+                </div>
             </div>
         </section>
     </body>

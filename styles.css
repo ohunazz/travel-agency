@@ -206,3 +206,43 @@ dd {
 .youtube-googlemap {
     margin-bottom: 40px;
 }
+
+/* Contact */
+
+#contact-us {
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+}
+.contact-us-container {
+    margin-bottom: 80px;
+}
+
+#contact-us h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #f21b3f;
+}
+
+.contact-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.contact-table th,
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+    background-color: #ade8f4;
+}
+
+.contact-info th {
+    background-color: #0077b6;
+}
+
+.inquiry-form h3 {
+    font-size: 35px;
+    color: #ff9f1c;
+    margin-bottom: 20px;
+}
