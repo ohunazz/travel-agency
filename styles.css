@@ -162,12 +162,14 @@ a {
     width: 100%;
     background-color: #d9ed92;
     font-size: 20px;
+    margin-bottom: 60px;
 }
 
 .destination-table th,
 td {
     border: 1px solid black;
     text-align: center;
+    padding: 15px;
 }
 
 #destination-page h2 {
@@ -175,4 +177,21 @@ td {
     font-size: 40px;
     color: #8d0801;
     margin-bottom: 40px;
+}
+
+#destination-page h3 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #3a0ca3;
+}
+
+.additional-info dt {
+    font-weight: bold;
+    color: #e63946;
+    font-size: 24px;
+}
+.additional-info dt,
+dd {
+    margin-bottom: 10px;
 }
