@@ -186,10 +186,17 @@ td {
     color: #3a0ca3;
 }
 
+.additional-info {
+    margin-bottom: 40px;
+    border: 1px solid;
+    padding: 15px;
+}
+
 .additional-info dt {
     font-weight: bold;
     color: #e63946;
     font-size: 24px;
+    margin-left: 20px;
 }
 .additional-info dt,
 dd {
