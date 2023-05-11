@@ -370,6 +370,156 @@
                         />
                     </div>
                 </form>
+                <div class="preferred-destination">
+                    <div>
+                        <h3>Your Preference</h3>
+                        <label for="preferredDestinationSelect"
+                            >Choose Your Preferred Destination</label
+                        >
+                        <select
+                            name="preferredDestination"
+                            id="prereferredDestination"
+                        >
+                            <option value="Dubai">Dubai</option>
+                            <option value="Singapore">Singapore</option>
+                            <option value="Paris">Paris</option>
+                            <option value="New York">New York</option>
+                            <option value="Hong Kong">Hong Kong</option>
+                        </select>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend>
+                                Choose Your Preferred Travel Service
+                            </legend>
+                            <label for="flightsTravelServiceCheckbox"
+                                >Flights</label
+                            >
+                            <input
+                                type="checkbox"
+                                name="flightsTravelService"
+                                id="flightsTravelServiceCheckbox"
+                                value="Flights"
+                            />
+
+                            <label for="hotelsTravelServiceCheckbox"
+                                >Hotels</label
+                            >
+                            <input
+                                type="checkbox"
+                                name="hotelsTravelService"
+                                id="hotelsTravelServiceCheckbox"
+                                value="Hotels"
+                            />
+
+                            <label for="toursTravelServiceCheckbox"
+                                >Tours</label
+                            >
+                            <input
+                                type="checkbox"
+                                name="toursTravelService"
+                                id="toursTravelServiceCheckbox"
+                                value="Tours"
+                            />
+
+                            <label for="carRentalsTravelServiceCheckbox"
+                                >Car Rentals</label
+                            >
+                            <input
+                                type="checkbox"
+                                name="carRentalTravelService"
+                                id="carRentalTravelServiceCheckbox"
+                                value="Car Rental"
+                            />
+                        </fieldset>
+                        <fieldset class="user-prefferedCommunication">
+                            <legend>
+                                Choose Your Preferred Mode of Communication
+                            </legend>
+                            <label for="emailRadio">Email</label>
+                            <input
+                                type="radio"
+                                name="preferredCommunicationMode"
+                                id="emailRadio"
+                                value="Email"
+                            />
+
+                            <label for="phoneRadio">Phone</label>
+                            <input
+                                type="radio"
+                                name="preferredCommunicationMode"
+                                id="phoneRadio"
+                                value="Phone"
+                            />
+
+                            <label for="smsRadio">SMS</label>
+                            <input
+                                type="radio"
+                                name="preferredCommunicationMode"
+                                id="smsRadio"
+                                value="SMS"
+                            />
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+
+            <div class="comments">
+                <h3>Your Comments and Questions here</h3>
+                <textarea
+                    name="userComments"
+                    id="commentsTextarea"
+                    cols="156"
+                    rows="15"
+                ></textarea>
+            </div>
+            <div><button type="submit">Submit</button></div>
+        </section>
+        <section id="faq">
+            <div class="faq-container">
+                <h3>Frequently Asked Questions</h3>
+                <dl>
+                    <dt>What are the essential items to pack for a trip?</dt>
+                    <dd>
+                        Essential items to pack include a passport or ID, travel
+                        documents, money and credit cards, appropriate clothing
+                        for the climate, toiletries, medications, and any
+                        necessary electronics such as a phone or laptop.
+                    </dd>
+                    <dt>How far in advance should I book a flight?</dt>
+                    <dd>
+                        It is recommended to book flights at least two to three
+                        months in advance to secure the best prices.
+                    </dd>
+                    <dt>What are some safety tips for traveling?</dt>
+                    <dd>
+                        Always research your destination and stay aware of your
+                        surroundings, avoid carrying too much cash or valuables,
+                        keep important documents in a safe place, be cautious
+                        when using public Wi-Fi, and have a plan in case of
+                        emergency.
+                    </dd>
+                    <dt>
+                        Is it better to exchange currency before or during a
+                        trip?
+                    </dt>
+                    <dd>
+                        It is generally recommended to exchange currency before
+                        the trip to ensure you have the appropriate amount of
+                        cash on hand. However, it is also advisable to have a
+                        credit card that can be used internationally.
+                    </dd>
+                    <dt>
+                        What should I do if my flight is canceled or delayed?
+                    </dt>
+                    <dd>
+                        Contact the airline immediately to find out the reason
+                        for the delay or cancellation and inquire about
+                        alternative travel arrangements. It is also recommended
+                        to stay updated on flight statuses and check with the
+                        airline for compensation policies.
+                    </dd>
+                </dl>
             </div>
         </section>
     </body>

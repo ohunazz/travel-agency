@@ -151,6 +151,7 @@ a {
     max-width: 1440px;
     margin: 0 auto;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .destination-table thead {
@@ -213,6 +214,8 @@ dd {
     max-width: 1440px;
     margin: 0 auto;
     align-items: center;
+    background-color: #e9ecef;
+    margin-bottom: 40px;
 }
 .contact-us-container {
     margin-bottom: 80px;
@@ -245,7 +248,7 @@ td {
 
 .inquiry-form {
     margin: 0 auto;
-    background-color: #e9ecef;
+
     border-radius: 5px;
     margin-bottom: 60px;
     width: 40%;
@@ -287,4 +290,87 @@ td {
     padding: 10px;
     border: 1px solid #352929;
     border-radius: 5px;
+}
+
+/* Preferred Destination */
+
+.preferred-destination {
+    margin: 0 auto;
+
+    margin-bottom: 60px;
+    width: 50%;
+    margin-left: 40px;
+    padding: 40px;
+}
+
+.preferred-destination label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.preferred-destination select {
+    margin-bottom: 20px;
+}
+
+.preferred-destination legend {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.preferred-destination h3 {
+    font-size: 35px;
+    color: #0d2c54;
+    margin-bottom: 40px;
+}
+
+.preferred-destination fieldset {
+    margin-bottom: 50px;
+}
+
+/* Comments */
+
+.comments {
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.comments h3 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: #ee2f2f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+/* FAQ */
+
+.faq-container {
+    max-width: 1440px;
+    padding: 40px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.faq-container h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.faq-container dt {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3a0ca3;
 }
