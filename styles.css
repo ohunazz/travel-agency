@@ -223,8 +223,9 @@ dd {
 
 #contact-us h2 {
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     color: #f21b3f;
+    text-align: center;
 }
 
 .contact-table {
@@ -373,4 +374,40 @@ button {
     font-size: 20px;
     font-weight: bold;
     color: #3a0ca3;
+}
+
+.contact-footer-container {
+    max-width: 1440px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    display: flex;
+    background-color: #fefae0;
+}
+
+.contact-footer-container h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.footer-iframe {
+    margin-right: 40px;
+    width: 50%;
+}
+
+.footer-contact {
+    width: 50%;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.contact-footer-container h3,
+p {
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.contact-footer-container p {
+    font-size: 20px;
 }
