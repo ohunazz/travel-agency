@@ -241,8 +241,50 @@ td {
     background-color: #0077b6;
 }
 
+/* Inquiry Form */
+
+.inquiry-form {
+    margin: 0 auto;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    width: 40%;
+    margin-left: 40px;
+    padding: 40px;
+}
+
+.inquiry-form-page {
+    display: flex;
+}
+
 .inquiry-form h3 {
     font-size: 35px;
-    color: #ff9f1c;
+    color: #0d2c54;
     margin-bottom: 20px;
+}
+
+.inquiry-form div {
+    margin-bottom: 10px;
+}
+
+.inquiry-form-header {
+    margin-bottom: 20px;
+}
+
+.inquiry-form div {
+    margin-bottom: 20px;
+}
+
+.inquiry-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.inquiry-form input,
+.inquiry-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #352929;
+    border-radius: 5px;
 }

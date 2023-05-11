@@ -324,88 +324,52 @@
                     </tbody>
                 </table>
             </div>
-            <div class="inquiry-form">
-                <h3>Please fill out the Form</h3>
-                <div>
-                    <label for="fullNameInput">Full Name</label>
-                    <input
-                        type="text"
-                        name="fullName"
-                        id="fullNameInput"
-                        required
-                    />
-                </div>
-                <div>
-                    <label for="emailInput">Email</label>
-                    <input
-                        type="email"
-                        name="email"
-                        id="emailInput"
-                        placeholder="example@gmail.com"
-                    />
-                </div>
-                <div>
-                    <label for="phoneNumberInput">Phone number</label>
-                    <input
-                        type="tel"
-                        id="phoneNumberInput"
-                        name="phoneNumber"
-                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                        required
-                    />
-                </div>
-                <div class="preferred-destination">
-                    <div>
-                        <label for="destinationSelect"
-                            >Please choose your prefferred Destination</label
-                        >
-                        <select
-                            name="destinationPreference"
-                            id="destinationSelect"
-                            required
-                        >
-                            <option value="Dubai">Dubai</option>
-                            <option value="New York">New York</option>
-                            <option value="Singapore">Singapore</option>
-                            <option value="Paris">Paris</option>
-                            <option value="Hong Kong">Hong Kong</option>
-                        </select>
+            <div class="inquiry-form-page">
+                <form class="inquiry-form">
+                    <div class="inquiry-form-header">
+                        <h3>Contact Us</h3>
                     </div>
-                </div>
-            </div>
 
-            <div class="preferred-travel">
-                <h3>Select your Travel Services</h3>
-                <div>
-                    <label for="flights">Flights</label>
-                    <input
-                        type="checkbox"
-                        name="flights"
-                        id="flightsInput"
-                        value="Flights"
-                    />
-                    <label for="hotelsInput">Hotels</label>
-                    <input
-                        type="checkbox"
-                        name="hotels"
-                        id="hotelsInput"
-                        value="Hotels"
-                    />
-                    <label for="toursInput">Tours</label>
-                    <input
-                        type="checkbox"
-                        name="tours"
-                        id="toursInput"
-                        value="Tours"
-                    />
-                    <label for="carRentalsInput">Car Rentals</label>
-                    <input
-                        type="checkbox"
-                        name="carrentals"
-                        id="carRentalsInput"
-                        value="Car Rentals"
-                    />
-                </div>
+                    <div class="user-firstName">
+                        <label for="firstNameInput">First Name</label>
+                        <input
+                            type="text"
+                            name="firstName"
+                            id="firstNameInput"
+                            placeholder="First Name"
+                        />
+                    </div>
+
+                    <div class="user-lastName">
+                        <label for="lastNameInput">Last Name</label>
+                        <input
+                            type="text"
+                            name="lastName"
+                            id="lastNameInput"
+                            placeholder="Last Name"
+                        />
+                    </div>
+
+                    <div class="user-email">
+                        <label for="emailInput">Your Email</label>
+                        <input
+                            type="email"
+                            name="email"
+                            id="emailInput"
+                            placeholder="you@example.com"
+                        />
+                    </div>
+
+                    <div class="user-phoneNumber">
+                        <label for="phoneNumberInput">Phone Number</label>
+                        <input
+                            type="tel"
+                            name="phoneNumber"
+                            id="phoneNumberInput"
+                            placeholder="(123) 456-7890"
+                        />
+                    </div>
+                </form>
             </div>
         </section>
     </body>
