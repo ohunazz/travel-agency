@@ -116,6 +116,7 @@ body {
     padding: 80px;
     margin: 0 auto;
     margin-bottom: 40px;
+    border: 1px solid blue;
 }
 
 .top-destinations-container h2 {
@@ -126,11 +127,23 @@ body {
     margin-bottom: 40px;
     color: #6a4c93;
 }
+.top-destinations-container-left {
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.top-destinations-container-right {
+    text-align: center;
+    padding: 20px;
+}
 
 .top-destinations-container ol {
     display: flex;
     gap: 40px;
     align-items: center;
+
+    list-style: none;
 }
 
 .top-destinations-container h3 {
