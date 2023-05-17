@@ -51,6 +51,14 @@ body {
 
 .navigation-links a {
     font-size: 20px;
+    color: #311f09;
+}
+
+.navigation-links a:hover {
+    background-color: #ddb892;
+    transition: 0.5s;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 /* Home Page */
