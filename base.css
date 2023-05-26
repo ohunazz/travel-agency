@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+:root {
+    --color-black: #311f09;
+    --color-primary: #faedcd;
+    --color-light-purple: #6a4c93;
+}
